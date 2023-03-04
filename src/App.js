@@ -1,7 +1,12 @@
 import "./App.css";
+import TaskManagement from "./pages/TaskManagement";
 
 function App() {
-  return <div className="App text-rose-500">Hello World !!!</div>;
+  return (
+    <div className="">
+      <TaskManagement />
+    </div>
+  );
 }
 
 export default App;
